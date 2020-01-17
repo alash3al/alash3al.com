@@ -1,3 +1,44 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Al Asha'l"
+theme = "hyde-hyde"
+
+[params]
+    title = "Al Asha'l"
+    theme = "hyde-hyde"
+    highlightjs = true
+    postNavigation = true
+    relatedPosts = true
+    author = "Mohamed Al Asha'l"
+    description = "Thoughts, findings and opinions"
+    dateformat = "Jan 2, 2006"
+
+    copyright = "alash3al"
+    showBuiltWith = true
+
+    baseURL = "https://alash3al.com"
+    languageCode = "en-us"
+
+[params.social]
+	github = "alash3al"
+    facebook = "alash3al"
+    gravatar = "m7medalash3al@gmail.com"
+    linkedin = "alash3al"
+    email = "m7medalash3al@gmail.com"
+
+# [[menu.main]]
+#     name = "Posts"
+#     weight = 300
+#     identifier = "posts"
+#     url = "/posts/"
+
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+
+[[menu.main]]
+    name = "Home"
+    identifier = "home"
+    weight = 100
+    url = "/"
+
