@@ -1,5 +1,6 @@
 title = "Al Asha'l"
 theme = "hyde-hyde"
+publishDir = "docs"
 
 [params]
     title = "Al Asha'l"

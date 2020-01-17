@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Al Asha&#39;l</title>
+    <link>/</link>
+    <description>Recent content on Al Asha&#39;l</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 17 Jan 2020 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Me</title>
+      <link>/about/</link>
+      <pubDate>Fri, 17 Jan 2020 00:00:00 +0200</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Mohamed Al Asha&#39;l
+a software engineer with a 6+ years of experience in building small to enterprise ready softwares in different fields utilizing the power of the ecosystem available there without restricting myself to a certain language/tool/environment, I&#39;m an engineer who get things done simply with no hassle nor complixty, as well I&#39;m a big fan of the opensource world, so you&#39;ll find a github profile for me, github.
+Now I&#39;m working @speakol (a native-ads platform).</description>
+    </item>
+    
+  </channel>
+</rss>
