@@ -46,12 +46,16 @@ copyright = "&copy;2020 Mohamed Al Ashaal"
       heading = "Connect"
 
       [[params.links.list1.link]]
+        text = "Phone"
+        url = "tel:+201006343820"
+
+      [[params.links.list1.link]]
+        text = "Whatsapp"
+        url = "https://api.whatsapp.com/send?phone=+201006343820"
+
+      [[params.links.list1.link]]
         text = "Email"
         url = "mailto:m7medalash3al@gmail.com"
-
-      [[params.links.list2.link]]
-        text = "Blog"
-        url = "https://dev.to/alash3al"
 
   # Links List #2
   [[params.links]]
@@ -59,12 +63,16 @@ copyright = "&copy;2020 Mohamed Al Ashaal"
       heading = "Social"
 
       [[params.links.list2.link]]
-        text = "Twitter"
-        url = "https://twitter.com/m7medalash3al"
-
-      [[params.links.list2.link]]
         text = "Github"
         url = "https://github.com/alash3al"
+
+      [[params.links.list2.link]]
+        text = "Linkedin"
+        url = "https://www.linkedin.com/in/alash3al/"
+
+      [[params.links.list2.link]]
+        text = "Twitter"
+        url = "https://twitter.com/m7medalash3al"
 
       [[params.links.list2.link]]
         text = "Facebook"
