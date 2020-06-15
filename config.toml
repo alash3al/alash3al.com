@@ -1,45 +1,93 @@
-title = "Al Asha'l"
-theme = "hyde-hyde"
-publishDir = "docs"
+# Site settings
+baseURL = "//alash3al.com"
+languageCode = "en-US"
+title = "alash3al - an software engineer"
+theme = "hugo-split-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+# Copyright
+copyright = "&copy;2020 Mohamed Al Ashaal"
 
 [params]
-    title = "Al Asha'l"
-    theme = "hyde-hyde"
-    highlightjs = true
-    postNavigation = true
-    relatedPosts = true
-    author = "Mohamed Al Asha'l"
-    description = "Thoughts, findings and opinions"
-    dateformat = "Jan 2, 2006"
 
-    copyright = "alash3al"
-    showBuiltWith = true
+  # Metadata for search engines and social sharing
+  author = "Mohamed Al Ashaal"
+  description = "a software engineer with +7 years experience in building and managing scalable and high performance systems"
+  shareImage = "images/picture.jpeg"
+  twitterHandle = "m7medalash3al"
 
-    baseURL = "https://alash3al.com"
-    languageCode = "en-us"
+  # Favicon
+  favicon = "favicon.ico"
 
-[params.social]
-	github = "alash3al"
-    facebook = "alash3al"
-    gravatar = "m7medalash3al@gmail.com"
-    linkedin = "alash3al"
-    email = "m7medalash3al@gmail.com"
+  # Section - Visual
+  [params.visual]
 
-# [[menu.main]]
-#     name = "Posts"
-#     weight = 300
-#     identifier = "posts"
-#     url = "/posts/"
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/picture.jpeg"
+      position = "center center"
 
-[[menu.main]]
-    name = "About"
-    identifier = "about"
-    weight = 200
-    url = "/about/"
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
 
-[[menu.main]]
-    name = "Home"
-    identifier = "home"
-    weight = 100
-    url = "/"
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
 
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "mailto:m7medalash3al@gmail.com"
+
+      [[params.links.list2.link]]
+        text = "Blog"
+        url = "https://dev.to/alash3al"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
+
+      [[params.links.list2.link]]
+        text = "Twitter"
+        url = "https://twitter.com/m7medalash3al"
+
+      [[params.links.list2.link]]
+        text = "Github"
+        url = "https://github.com/alash3al"
+
+      [[params.links.list2.link]]
+        text = "Facebook"
+        url = "https://facebook.com/alash3al"
+
+  # Links List #3
+  # [[params.links]]
+  #   [params.links.list3]
+  #     heading = "Network"
+
+  #     [[params.links.list3.link]]
+  #       text = "Link One"
+  #       url = "#"
+
+  #     [[params.links.list3.link]]
+  #       text = "Link Two"
+  #       url = "#"
+
+  #     [[params.links.list3.link]]
+  #       text = "Link Three"
+  #       url = "#"
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
