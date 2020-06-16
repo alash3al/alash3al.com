@@ -9,7 +9,17 @@ publishDir = "docs"
 
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = """
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JTPPFTKEHG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JTPPFTKEHG');
+</script>
+"""
 
 # Copyright
 copyright = "&copy;2020 Mohamed Al Ashaal"
