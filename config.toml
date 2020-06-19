@@ -1,7 +1,7 @@
 # Site settings
 baseURL = "//alash3al.com"
 languageCode = "en-US"
-title = "alash3al - an software engineer"
+title = "alash3al - a software engineer"
 theme = "hugo-split-theme"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
 
